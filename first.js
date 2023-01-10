@@ -28,10 +28,7 @@ const askFunc = () => {
          personCity = 'You live in the capital of GreatBritain '
          break;
       }
-      case null: {
-         personCity = 'You didn`t log your city'
-         break;
-      }
+      case null:
       case '': {
          personCity = 'You didn`t log your city'
          break;
@@ -55,10 +52,7 @@ const askFunc = () => {
          personSport = 'Great! Do you want to be like Levan ?';
          break;
       }
-      case null: {
-         personSport = 'You didn`t log your favourite Sport';
-         break;
-      }
+      case null:
       case '': {
          personSport = 'You didn`t log your favourite Sport';
          break;
