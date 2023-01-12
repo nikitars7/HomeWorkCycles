@@ -19,8 +19,6 @@ let num = 1000;
 for (let i = 1; i <= num; i++) {
   if (i * i <= num) {
     console.log(i)
-  } else {
-    break;
   }
 }
 
